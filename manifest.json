@@ -13,6 +13,7 @@
       "scripts": ["background.js"]
     },
   "permissions": [
-    "https://youtube-eng.blogspot.in/*"
-  ]
+    "tabs"
+  ],
+  "content_security_policy": "script-src 'self' https://www.google.com;object-src 'self'"
 }
