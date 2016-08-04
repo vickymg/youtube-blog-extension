@@ -9,7 +9,9 @@
     "default_title": "YouTube latest blogs",
     "default_popup": "popup.html"
   },
-  "background_page": "background.html",
+  "background": {
+      "scripts": ["background.js"]
+    },
   "permissions": [
     "https://youtube-eng.blogspot.in/*"
   ]
