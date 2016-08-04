@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("#feed").PaRSS("https://youtube-eng.blogspot.in//",
+  $("#feed").PaRSS("http://feeds.feedburner.com/youtube/PKJx",
   5,
   "M jS g:i a",
   "image")

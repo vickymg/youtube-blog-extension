@@ -2,16 +2,13 @@
   "manifest_version": 2,
 
   "name": "youtube-blog-extension",
-  "description": "an extension to show the latest YouTube engineering blog posts",
+  "description": "an extension to show the latest YouTube blog posts",
   "version": "1.0",
 
   "browser_action": {
     "default_title": "YouTube latest blogs",
     "default_popup": "popup.html"
   },
-  "background": {
-      "scripts": ["background.js"]
-    },
   "permissions": [
     "tabs"
   ],
